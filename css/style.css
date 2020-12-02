@@ -1,0 +1,61 @@
+body {
+    line-height: 1.5;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'arial black';
+    font-size: 5rem; 
+    background-image: url(../images/M0XBFCs.gif);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    line-height: 1;
+}
+
+h2 {
+    text-shadow: 3px 3px 3px red;
+    font-size: 4rem;
+    color: #d90;
+    margin: 0;
+    padding:  0 ;
+}
+
+.paragraph-columns {
+    column-count: 4;
+    column-gap: 50px;
+    column-rule: 5px dashed #d90;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 5%;
+    text-align: center;
+}
+
+hr {
+    width: 15%;
+    height: 0.5rem;
+    border-radius: 10px;
+    border: 10px  teal; 
+    border-style: none none solid none;
+    margin-top: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+
+.dotted-paragraph {
+    font-family: 'Orbitron', sans-serif;
+    padding: 1.5rem;
+    border: 10px dotted #d90; 
+    border-radius: 30px;
+    margin: 2rem 100px;
+    
+}
+
+footer {
+    color: #ddd;
+    padding: 18px;
+    background-color: teal;
+}
+
